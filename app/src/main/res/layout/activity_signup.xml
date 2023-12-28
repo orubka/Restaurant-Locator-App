@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:id="@+id/signupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="357dp"
+            app:srcCompat="@drawable/img" />
+
+        <EditText
+            android:id="@+id/usernameSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Username"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:drawablePadding="8dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/passwordSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Sign Up" />
+        <Button
+            android:id="@+id/loginRedirect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="#808080"
+            android:backgroundTint="#E6E6FA"
+            android:text="Already have an account? Login" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
